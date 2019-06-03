@@ -1,0 +1,23 @@
+function window = windowing(N,alpha)
+%     %% Função de Janelamento de Hann ou Hamming de ordem N
+% 
+%     % Converte a ordem do janelamento em comprimento das matrizes
+%     M=(N-1)/2;
+%     
+%     % Cria a matriz de janelamento
+%     w = alpha+(1-alpha)*cos(pi*[0:M]/M);
+%     window  = [0 w(M:-1:2) w(1) w(2:M) 0]';
+
+if ~rem(N,2)
+   % Even length window
+   M = N/2;
+   w = alpha+(1-alpha)*cos(pi*[0:M]/M);
+   window = [w; w(end:-1:1)];
+else
+   % Odd length window
+   M = (N+1)/2;
+   w = alpha+(1-alpha)*cos(pi*[0:M]/M);
+   window = [w; w(end-1:-1:1)];
+end
+    
+end
