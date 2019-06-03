@@ -4,7 +4,7 @@ The objective of the project was to create a software to analyse and process the
 
 The software analyses the audio input of a Audio Interface UMC 204, but it can be adapted to the pc inboard audio interface. 
 
-It was also part of the project to build the hardware of the digital stethoscope. I'm annexing the hardware KiCad files.
+It was also part of the project to build the hardware of the digital stethoscope. I'm annexing the hardware squematics and its PCB layout.
 
 The abstract of the thesis was the following, the complete thesis will be uploaded after the presentation. 
 
