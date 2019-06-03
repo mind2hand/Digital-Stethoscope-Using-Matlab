@@ -1,6 +1,6 @@
 # Digital-Stethoscope-Using-Matlab
 
-The objective of the project was to create a software to analyse and process the cardiac auscultation. A graphical interface was created using Matlab GUIDE and a apllication was compiled using Matlab. The language of the software was portuguese - BR.  The project was part of my undergraduate thesis in Physics Engineering. 
+The objective of the project was to create a software to analyse and process the cardiac auscultation. A graphical interface was created using Matlab GUIDE and a apllication was compiled using Matlab. The language of the software was Portuguese - BR.  The project was part of my undergraduate thesis in Physics Engineering. 
 
 The software analyses the audio input of a Audio Interface UMC 204, but it can be adapted to the pc inboard audio interface. 
 
