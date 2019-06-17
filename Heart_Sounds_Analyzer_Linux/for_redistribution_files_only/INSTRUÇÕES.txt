@@ -1,0 +1,55 @@
+INSTRUÇÕES
+
+Executável do Heart_Sounds_Analyzer
+
+1. Pré-requisitos para implantação
+
+Verifique se a versão 9.4 (R2018a) do MATLAB Runtime está instalada.
+Caso contrário, você pode executar o instalador do MATLAB Runtime.
+Para encontrar sua localização, digite
+  
+    >> mcrinstaller
+      
+no prompt do MATLAB.
+
+Como alternativa, baixe e instale a versão Linux do MATLAB Runtime for R2018a
+no seguinte link no site da MathWorks:
+
+    http://www.mathworks.com/products/compiler/mcr/index.html
+   
+Para obter mais informações sobre o instalador do Tempo de Execução do MATLAB e do Tempo de Execução do MATLAB, consulte
+Empacotar e distribuir na documentação do compilador MATLAB
+no MathWorks Documentation Center.
+
+2. Arquivos para implementar o pacote
+
+Arquivos para pacote para standalone
+================================
+-Heart_Sounds_Analyzer
+-run_Heart_Sounds_Analyzer.sh 
+   -para executar o script de shell, digite
+   
+       ./run_Heart_Sounds_Analyzer.sh <mcr_directory> <argument_list>
+       
+    no prompt de comando do Linux ou Mac. <mcr_directory> é o diretório
+    onde a versão 9.4 do MATLAB Runtime está instalada ou o diretório onde
+    O MATLAB está instalado na máquina. <argument_list> são todos os
+    argumentos que você deseja passar para o seu aplicativo. Por exemplo,
+
+    Se você tiver a versão 9.4 do MATLAB Runtime instalado em
+    /mathworks/home/application/v94, execute o script de shell como:
+    
+       ./run_Heart_Sounds_Analyzer.sh /mathworks/home/application/v94
+       
+    Se você tiver o instalador do MATLAB  em
+    /mathworks/application/matlab, execute o script de shell como:
+    
+      ./run_Heart_Sounds_Analyzer.sh /mathworks/application/matlab -MCRInstaller.zip
+  
+3. Definições
+
+Para obter informações sobre a terminologia de implantação, vá para
+http://www.mathworks.com/help e selecione MATLAB Compiler
+Termos do produto de implantação na documentação da MathWorks.
+
+
